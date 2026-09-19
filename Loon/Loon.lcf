@@ -1,11 +1,3 @@
-# 根据 Surge_Custom.conf 迁移的 Loon 配置
-# 语法参考：https://raw.githubusercontent.com/fmz200/wool_scripts/main/Loon/config/Loon.conf
-# 官方示例：https://github.com/Loon0x00/LoonExampleConfig/blob/master/example2.lcf
-# 兼容说明：Surge smart 使用 url-test 近似替代，不等同于 smart 算法。
-# 地区筛选沿用 Surge 的花云来源；一元订阅可在“节点选择”中手动选择。
-# 不迁移 Surge 的进程规则、extended-matching、dns-failed 与专属界面参数。
-# 订阅更新周期在 Loon 应用内设置；不沿用 Surge 的 update-interval 参数。
-
 [General]
 ip-mode = v4-only
 ipv6-vif = off
