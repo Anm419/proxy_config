@@ -1,6 +1,14 @@
 # NAME: China
 
-# 从 Unbreak.list 合并（未覆盖的 6 条规则）
+# https://api-huacloud.dev/getruleset?type=1&url=UHJvZmlsZXMvU3VyZ2UvUnVsZXNldC9DaGluYS5saXN0
+DOMAIN-SUFFIX,netspeedtestmaster.com
+DOMAIN,speedtest.macpaw.com
+DOMAIN-SUFFIX,acg.rip
+DOMAIN-SUFFIX,chdbits.co
+DOMAIN-SUFFIX,comicat.org
+DOMAIN-SUFFIX,hdsky.me
+GEOIP,CN,no-resolve
+
 # https://api-huacloud.dev/getruleset?type=1&url=UHJvZmlsZXMvU3VyZ2UvUnVsZXNldC9VbmJyZWFrLmxpc3Q
 DOMAIN,app.adjust.com
 DOMAIN,app.appsflyer.com
