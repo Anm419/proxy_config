@@ -43,3 +43,4 @@ DOMAIN,safebrowsing.googleapis-cn.com
 DOMAIN,safebrowsing.clients.google.com
 DOMAIN,safebrowsing-cache.google.com
 ```
+- 将 `IP-CIDR6,fd00::/8,no-resolve` 合并到 `Lan.list`
