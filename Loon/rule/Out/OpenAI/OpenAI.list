@@ -1,6 +1,12 @@
 # GROUP: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
 # UPDATED: 2025-06-06 09:20:00
+
+# GROUP: Flower花云
+# SOURCE: https://api-huacloud.dev/getruleset?type=1&url=UHJvZmlsZXMvU3VyZ2UvUnVsZXNldC9FeHRyYS9PcGVuQUkvT3BlbkFJLmxpc3Q
+DOMAIN-SUFFIX,oai.azure.com
+DOMAIN-SUFFIX,openai.azure.com
+
 DOMAIN,browser-intake-datadoghq.com
 DOMAIN,chat.openai.com.cdn.cloudflare.net
 DOMAIN,openai-api.arkoselabs.com
@@ -36,9 +42,3 @@ DOMAIN-KEYWORD,openai
 IP-CIDR,24.199.123.28/32,no-resolve
 IP-CIDR,64.23.132.171/32,no-resolve
 IP-ASN,20473,no-resolve
-
-# GROUP: Flower花云
-# SOURCE: https://api-huacloud.dev/getruleset?type=1&url=UHJvZmlsZXMvU3VyZ2UvUnVsZXNldC9FeHRyYS9PcGVuQUkvT3BlbkFJLmxpc3Q
-# UPDATED: 2026-09-16
-DOMAIN-SUFFIX,oai.azure.com
-DOMAIN-SUFFIX,openai.azure.com

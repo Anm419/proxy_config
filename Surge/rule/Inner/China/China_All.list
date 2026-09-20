@@ -1,5 +1,13 @@
 # NAME: China
 
+# SOURCE: 从 Unbreak.list 合并（未覆盖的 6 条规则）
+# https://api-huacloud.dev/getruleset?type=1&url=UHJvZmlsZXMvU3VyZ2UvUnVsZXNldC9VbmJyZWFrLmxpc3Q
+DOMAIN,app.adjust.com
+DOMAIN,app.appsflyer.com
+DOMAIN,safebrowsing.googleapis.com
+DOMAIN,safebrowsing.googleapis-cn.com
+DOMAIN,safebrowsing.clients.google.com
+DOMAIN,safebrowsing-cache.google.com
 
 # SOURCE: 从DouYin.list 合并
 DOMAIN-SUFFIX,idouyinvod.com
