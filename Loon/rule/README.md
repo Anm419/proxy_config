@@ -28,23 +28,10 @@
 - `CGB.list`合并到了`Bank.list`中
 - `UnionPay.list`合并到了`Bank.list`中
 - `ICBC.list`合并到了`Bank.list`中
-- `Alibaba.list`和`Alibaba_Domain.list`合并到了`Alibaba_All.list`中
-- `China.list`和`China_Domain.list`合并到了`China_All.list`中
-- `Tencent.list`和`Tencent_Domain.list`合并到了`Tencent_All.list`中
-- `Apple.list`和`Apple_Domain.list`合并到了`Apple_All.list`中
-- `GlobalMedia.list`和`GlobalMedia_Domain.list`合并到了`GlobalMedia_All.list`中
-- `Proxy.list`和`Proxy_Domain.list`合并到了`Proxy_All.list`中
+
 
 # 个人规则补充
 
 - `DOMAIN-SUFFIX,openai.azure.com`合并到了`OpenAI.list`中
 - `DOMAIN-SUFFIX,oai.azure.com`合并到了`OpenAI.list`中
 
-# Loon 规则说明
-
-- 规则从`rule/Loon/`整理，分类和文件名参考`Anm/Surge/`，合并规则的位置、分组顺序和备注与 Surge 对应文件保持一致
-- `_Domain.list`中的点开头域名转换为`DOMAIN-SUFFIX`，普通域名转换为`DOMAIN`，合并后不需要单独订阅`_Domain.list`
-- 保留 Loon 上游的`no-resolve`参数，每个文件内部去重，分类之间保留重叠
-- 使用 Loon 上游规则，不迁入 Surge 的`PROCESS-NAME`条目；`WeChat.list`使用 Loon 上游的 33 条规则
-- 现有`Loon.lcf`引用`Anm419/proxy_config`仓库下的`Loon/`目录，发布后远程订阅才会更新；若使用当前仓库，需调整仓库、分支及`Anm/Loon/`路径
-- 本次整理已通过本地检查，尚未在 Loon 客户端实测

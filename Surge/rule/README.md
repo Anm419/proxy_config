@@ -28,3 +28,8 @@
 - `CGB.list`合并到了`Bank.list`中
 - `UnionPay.list`合并到了`Bank.list`中
 - `ICBC.list`合并到了`Bank.list`中
+
+# 个人规则补充
+
+- `DOMAIN-SUFFIX,openai.azure.com`合并到了`OpenAI.list`中
+- `DOMAIN-SUFFIX,oai.azure.com`合并到了`OpenAI.list`中
