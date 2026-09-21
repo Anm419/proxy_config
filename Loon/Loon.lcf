@@ -102,6 +102,19 @@ mtalk.google.com = 108.177.125.188
 其他节点筛选 = NameRegex,花云,一元, FilterKey = "^(?!.*((GB)|(Expire)|(🇭🇰)|(香港)|(Hong)|(HK)|(🇯🇵)|(日本)|(Japan)|(JP)|(🇸🇬)|(新加坡)|(Singapore)|(SG)|(🇺🇸)|(美国)|(States)|(US)|(🇨🇳)|(台湾)|(Tai)|(TW)|(🇰🇷)|(韩国)|(韓國)|(Korea)|(KR)|(🇩🇪)|(德国)|(德國)|(Germany)|(DE)|(🇬🇧)|(英国)|(英國)|(United Kingdom)|(Britain)|(UK)|(🇳🇱)|(荷兰)|(荷蘭)|(Netherlands)|(Holland)|(NL)|(🇫🇷)|(法国)|(法國)|(France)|(FR)|(🇨🇦)|(加拿大)|(Canada)|(CA))).*$"
 
 [Proxy Group]
+🇭🇰 香港节点 = select,香港节点筛选
+🇸🇬 新加坡节点 = select,新加坡节点筛选
+🇺🇲 美国节点 = select,美国节点筛选
+🇯🇵 日本节点 = url-test,日本节点筛选,interval=600,tolerance=50
+🇨🇳 台湾节点 = url-test,台湾节点筛选,interval=600,tolerance=50
+🇰🇷 韩国节点 = url-test,韩国节点筛选,interval=600,tolerance=50
+🇨🇦 加拿大节点 = url-test,加拿大节点筛选,interval=600,tolerance=50
+🇳🇱 荷兰节点 = url-test,荷兰节点筛选,interval=600,tolerance=50
+🇩🇪 德国节点 = url-test,德国节点筛选,interval=600,tolerance=50
+🇬🇧 英国节点 = url-test,英国节点筛选,interval=600,tolerance=50
+🇫🇷 法国节点 = url-test,法国节点筛选,interval=600,tolerance=50
+🌐 其他节点 = url-test,其他节点筛选,interval=600,tolerance=50
+
 节点选择 = select, 🇭🇰 香港节点, 🇺🇲 美国节点, 🇸🇬 新加坡节点, 🇯🇵 日本节点, 🇨🇳 台湾节点, 🇰🇷 韩国节点, 🇩🇪 德国节点, 🇬🇧 英国节点, 🇳🇱 荷兰节点, 🇫🇷 法国节点, 🇨🇦 加拿大节点, 🌐 其他节点, 花云, 一元, img-url=https://raw.githubusercontent.com/Rabbit-Spec/Surge/Master/Conf/icon/Surge.png
 兜底策略 = select,  DIRECT, 节点选择, 🇭🇰 香港节点, 🇺🇲 美国节点, 🇸🇬 新加坡节点, 🇯🇵 日本节点, 🇨🇳 台湾节点, 🇰🇷 韩国节点, 🇩🇪 德国节点, 🇬🇧 英国节点, 🇳🇱 荷兰节点, 🇫🇷 法国节点, 🇨🇦 加拿大节点, 🌐 其他节点, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Cloudflare.png
 苹果服务 = select,  DIRECT, 节点选择, 🇭🇰 香港节点, 🇺🇲 美国节点, 🇸🇬 新加坡节点, 🇯🇵 日本节点, 🇨🇳 台湾节点, 🇰🇷 韩国节点, 🇩🇪 德国节点, 🇬🇧 英国节点, 🇳🇱 荷兰节点, 🇫🇷 法国节点, 🇨🇦 加拿大节点, 🌐 其他节点, img-url=https://raw.githubusercontent.com/Rabbit-Spec/Surge/Master/Conf/icon/Apple_Arcade.png
@@ -113,18 +126,7 @@ Paypal = select,  DIRECT, 节点选择, 🇭🇰 香港节点, 🇺🇲 美国�
 油管视频 = select,  DIRECT, 节点选择, 🇭🇰 香港节点, 🇺🇲 美国节点, 🇸🇬 新加坡节点, 🇯🇵 日本节点, 🇨🇳 台湾节点, 🇰🇷 韩国节点, 🇩🇪 德国节点, 🇬🇧 英国节点, 🇳🇱 荷兰节点, 🇫🇷 法国节点, 🇨🇦 加拿大节点, 🌐 其他节点, img-url=https://raw.githubusercontent.com/Rabbit-Spec/Surge/Master/Conf/icon/YouTube.png
 奈飞视频 = select,  DIRECT, 节点选择, 🇭🇰 香港节点, 🇺🇲 美国节点, 🇸🇬 新加坡节点, 🇯🇵 日本节点, 🇨🇳 台湾节点, 🇰🇷 韩国节点, 🇩🇪 德国节点, 🇬🇧 英国节点, 🇳🇱 荷兰节点, 🇫🇷 法国节点, 🇨🇦 加拿大节点, 🌐 其他节点, img-url=https://raw.githubusercontent.com/Rabbit-Spec/Surge/Master/Conf/icon/Netflix.png
 迪士尼+ = select,  DIRECT, 节点选择, 🇭🇰 香港节点, 🇺🇲 美国节点, 🇸🇬 新加坡节点, 🇯🇵 日本节点, 🇨🇳 台湾节点, 🇰🇷 韩国节点, 🇩🇪 德国节点, 🇬🇧 英国节点, 🇳🇱 荷兰节点, 🇫🇷 法国节点, 🇨🇦 加拿大节点, 🌐 其他节点, img-url=https://raw.githubusercontent.com/Rabbit-Spec/Surge/Master/Conf/icon/Disney.png
-国外代理 = select,  DIRECT, 节点选择, 🇭🇰 香港节点, 🇺🇲 美国节点, 🇸🇬 新加坡节点, 🇯🇵 日本节点, 🇨🇳 台湾节点, 🇰🇷 韩国节点, 🇩🇪 德国节点, 🇬🇧 英国节点, 🇳🇱 荷兰节点, 🇫🇷 法国节点, 🇨🇦 加拿大节点, 🌐 其他节点, img-url=https://raw.githubusercontent.com/Rabbit-Spec/Surge/Master/Conf/icon/GlobalMedia.png🇭🇰 香港节点 = select,香港节点筛选
-🇸🇬 新加坡节点 = select,新加坡节点筛选
-🇺🇲 美国节点 = select,美国节点筛选
-🇯🇵 日本节点 = url-test,日本节点筛选,interval = 600,tolerance = 50
-🇨🇳 台湾节点 = url-test,台湾节点筛选,interval = 600,tolerance = 50
-🇰🇷 韩国节点 = url-test,韩国节点筛选,interval = 600,tolerance = 50
-🇨🇦 加拿大节点 = url-test,加拿大节点筛选,interval = 600,tolerance = 50
-🇳🇱 荷兰节点 = url-test,荷兰节点筛选,interval = 600,tolerance = 50
-🇩🇪 德国节点 = url-test,德国节点筛选,interval = 600,tolerance = 50
-🇬🇧 英国节点 = url-test,英国节点筛选,interval = 600,tolerance = 50
-🇫🇷 法国节点 = url-test,法国节点筛选,interval = 600,tolerance = 50
-🌐 其他节点 = url-test,其他节点筛选,interval = 600,tolerance = 50
+国外代理 = select,  DIRECT, 节点选择, 🇭🇰 香港节点, 🇺🇲 美国节点, 🇸🇬 新加坡节点, 🇯🇵 日本节点, 🇨🇳 台湾节点, 🇰🇷 韩国节点, 🇩🇪 德国节点, 🇬🇧 英国节点, 🇳🇱 荷兰节点, 🇫🇷 法国节点, 🇨🇦 加拿大节点, 🌐 其他节点, img-url=https://raw.githubusercontent.com/Rabbit-Spec/Surge/Master/Conf/icon/GlobalMedia.png
 
 [Rule]
 # 域名规则优先匹配；未命中后再按 IP 规则与 FINAL 处理。
