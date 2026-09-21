@@ -150,7 +150,7 @@ https://raw.githubusercontent.com/Anm419/proxy_config/main/Loon/rule/Inner/Downl
 https://raw.githubusercontent.com/Anm419/proxy_config/main/Loon/rule/Inner/ChinaMedia/ChinaMedia.list,policy=DIRECT,tag=ChinaMedia,enabled=true
 https://raw.githubusercontent.com/Anm419/proxy_config/main/Loon/rule/Out/OpenAI/OpenAI.list,policy=人工智能,tag=OpenAI,enabled=true
 https://raw.githubusercontent.com/Anm419/proxy_config/main/Loon/rule/Out/Google/Google.list,policy=谷歌服务,tag=Google,enabled=true
-https://raw.githubusercontent.com/Anm419/proxy_config/main/Loon/rule/Out/GitHub/GitHub.list,policy=节点选择,tag=Google,enabled=true
+https://raw.githubusercontent.com/Anm419/proxy_config/main/Loon/rule/Out/GitHub/GitHub.list,policy=节点选择,tag=GitHub,enabled=true
 https://raw.githubusercontent.com/Anm419/proxy_config/main/Loon/rule/Out/Apple/Apple_All.list,policy=苹果服务,tag=Apple,enabled=true
 https://raw.githubusercontent.com/Anm419/proxy_config/main/Loon/rule/Out/Microsoft/Microsoft.list,policy=微软服务,tag=Microsoft,enabled=true
 https://raw.githubusercontent.com/Anm419/proxy_config/main/Loon/rule/Out/Telegram/Telegram.list,policy=电报信息,tag=Telegram,enabled=true
