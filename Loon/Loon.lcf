@@ -62,11 +62,6 @@ mi.com = server:119.29.29.29
 *.mi.com = server:119.29.29.29
 xiaomi.com = server:119.29.29.29
 *.xiaomi.com = server:119.29.29.29‘
-# 自建的内网DNS
-*.aiguoai.com = server:system
-*.aiguoerp.com = server:system
-*.xtkj99.com = server:system
-
 routerlogin.net = server:system
 _hotspot_.m2m = server:system
 router.asus.com = server:system
@@ -134,11 +129,6 @@ Paypal = select,DIRECT,节点选择,🇭🇰 香港节点,🇺🇲 美国节点,
 🌐 其他节点 = url-test,其他节点筛选,interval = 600,tolerance = 50
 
 [Rule]
-# 内网域名直连
-DOMAIN-SUFFIX,aiguoai.com,DIRECT
-DOMAIN-SUFFIX,aiguoerp.com,DIRECT
-DOMAIN-SUFFIX,xtkj99.com,DIRECT
-
 # 域名规则优先匹配；未命中后再按 IP 规则与 FINAL 处理。
 GEOIP,CN,DIRECT
 # 保持 Surge 的最终出口：节点选择。
